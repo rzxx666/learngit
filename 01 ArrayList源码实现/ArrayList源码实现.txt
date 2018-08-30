@@ -1,0 +1,12 @@
+1. 自定义一个集合工具类MyArray：(假设默认该集合存放int类型数据)
+	初始默认数组，长度为10，添加到第11个元素时，需要扩容，（2n+1倍）
+	
+	实现添加数据 public void add(int data){...}
+	删除数据 public void remove(){...}
+	根据下标获得数据public  int getData(int index){...}
+	判断集合中是否包含该元素public boolean contains(int data){..}
+	获得集合中元素的个数public int getSize(){...}
+	返回该元素所在数组的下标，若该元素不存在，则返回-1 , public int indexOf(int data){...}
+	清除集合中所有的元素public void clear(){...}
+	 按适当顺序（从第一个到最后一个元素）返回包含此列表中所有元素的数组
+		public int[] toArray(){...}
